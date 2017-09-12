@@ -29,7 +29,7 @@ public class OracleJDBCExample {
         try {
 
             connection = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@localhost:1521:xe", "system", "password");
+                    "jdbc:oracle:thin:@localhost:1521:xe", "system", "oracle");
 
         } catch (SQLException e) {
 
