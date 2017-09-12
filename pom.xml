@@ -21,6 +21,7 @@
             <version>12.1.0</version>
         </dependency>
   </dependencies>
+  <plugins>
   <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
@@ -40,4 +41,5 @@
     </arguments>
   </configuration>
 </plugin>
+  </plugins>
 </project>
