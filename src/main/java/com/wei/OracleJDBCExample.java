@@ -41,6 +41,7 @@ public class OracleJDBCExample {
 
         if (connection != null) {
             System.out.println("You made it, take control your database now!");
+            connection.close();
         } else {
             System.out.println("Failed to make connection!");
         }
